@@ -26,27 +26,43 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Briefly compare and contrast `.forEach` & `.map` (2-3 sentences max)
 
+.forEach calls a provided callback function once for each element, where as .map does a similar thing but returns an array as default.
+
 2. Explain the difference between a callback and a higher order function.
+
+A higher order function is a function that accepts callbacks as one of its parameters, callbacks being functions that get passed through higher order functions. 
 
 3. What is closure?
 
+Closure gives the inner function access to the outer functions scope. 
+
 4. Describe the four rules of the 'this' keyword.
 
+ 1 When in the global scope, the value of “this” will be the window/console Object.
+
+ 2 Whenever a preceding dot calls a function, the object before the dot is this.
+
+ 3 Whenever we use a constructor function, this refers to the specific instance of the object that is created and returned by the constructor function.
+
+ 4 Whenever we use JavaScript’s call or apply method, this is explicitly defined.
+
 5. Why do we need super() in an extended class?
+
+It allows the child to inherit all the atrributes and methods of the parent. 
 
 ### Task 1 - Project Set up
 
 Follow these steps to set up and work on your project:
 Make sure you clone the branch that the TK links to: the vnext branch, NOT master!
 
-- [ ] Create a forked copy of this project.
-- [ ] Add TL as collaborator on Github.
-- [ ] Clone your OWN version of Repo (Not Lambda's by mistake!).
-- [ ] Create a new Branch on the clone: git checkout -b `<firstName-lastName>`.
-- [ ] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
-- [ ] You are now ready to build this project with your preferred IDE
-- [ ] Implement the project on your Branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName>`.
+- [x] Create a forked copy of this project.
+- [x] Add TL as collaborator on Github.
+- [x] Clone your OWN version of Repo (Not Lambda's by mistake!).
+- [x] Create a new Branch on the clone: git checkout -b `<firstName-lastName>`.
+- [x] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
+- [x] You are now ready to build this project with your preferred IDE
+- [x] Implement the project on your Branch, committing changes regularly.
+- [x] Push commits: git push origin `<firstName-lastName>`.
 
 
 
@@ -59,12 +75,12 @@ Your finished project must include all of the following requirements:
 #### Task A: Objects and Arrays
 
 Test your knowledge of advanced array methods and callbacks.
-* [ ] Use the [arrays-callbacks.js](challenges/arrays-callbacks.js) link to get started.  Read the instructions carefully!
+* [x] Use the [arrays-callbacks.js](challenges/arrays-callbacks.js) link to get started.  Read the instructions carefully!
 
 #### Task B: Closure
 
 This challenge takes a look at closures as well as scope. 
-* [ ] Use the [closure.js](challenges/closure.js) link to get started. Read the instructions carefully!
+* [x] Use the [closure.js](challenges/closure.js) link to get started. Read the instructions carefully!
 
 #### Task C: Prototypes
 
